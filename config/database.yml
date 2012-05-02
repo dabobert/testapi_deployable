@@ -1,0 +1,6 @@
+development:
+  adapter: mysql2
+  database: revass_rob
+  username: revass_rob
+  password: revass
+  host: mysql.wmg-dta.com
