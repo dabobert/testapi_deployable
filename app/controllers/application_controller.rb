@@ -47,9 +47,9 @@ class ApplicationController < ActionController::Base
     
     case @data_set
     when 0
-      #@object = ArtistName.seek(@search_term) || ReleaseName.seek(@search_term)
+      @object = ArtistName.seek(@search_term) || ReleaseName.seek(@search_term)
     when 1
-      #@object = WmgTalent.seek(@search_term) || WmgArtist.seek(@search_term)
+      @object = WmgTalent.seek(@search_term) || WmgArtist.seek(@search_term)
     end
     
     if @filters.blank? && (@depth.blank? || @depth == 0)
