@@ -1,4 +1,4 @@
 Testapp::Application.routes.draw do
-  resource :home
-  root :to=>"homes#show"
+  resources :api
+  root :to => 'api#show'
 end

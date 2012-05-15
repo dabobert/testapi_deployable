@@ -19,5 +19,4 @@ class ApiController < ApplicationController
       format.xml  { render :xml  => @response.to_xml }
     end
   end
-  
 end
