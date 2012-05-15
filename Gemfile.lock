@@ -90,6 +90,6 @@ PLATFORMS
 
 DEPENDENCIES
   bundler
-  pg
+  pg (~> 0.12.2)
   rails (= 3.2.1)
   thin
